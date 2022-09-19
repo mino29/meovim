@@ -26,6 +26,10 @@ vim.g.maplocalleader = " "
 local opts = { noremap = true }
 
 -- Normal --
+keymap("n", ";", ":", opts)
+keymap("x", ";", ":", opts)
+keymap("n", "q;", "q:", opts)
+
 -- Better window/buffer navigation
 keymap("n", "<C-h>", "<C-w>h", opts)
 keymap("n", "<C-j>", "<C-w>j", opts)
