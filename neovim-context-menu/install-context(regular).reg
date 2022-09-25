@@ -5,18 +5,18 @@ Windows Registry Editor Version 5.00
 "Icon"="\"C:\\Program Files\\Neovim\\bin\\nvim-qt.exe\""
 
 [HKEY_CLASSES_ROOT\*\shell\nvim\command]
-@="wt -p \"Windows PowerShell\" --title neovim C:\\Program Files\\Neovim\\bin\\nvim.exe \"%1\""
+@="\"C:\\Program Files\\Neovim\\bin\\nvim.exe\" \"%1\""
 
 [HKEY_CLASSES_ROOT\directory\shell\nvim]
 @="Neovim Here"
 "Icon"="\"C:\\Program Files\\Neovim\\bin\\nvim-qt.exe\""
 
 [HKEY_CLASSES_ROOT\directory\shell\nvim\command]
-@="wt -p \"Windows PowerShell\" --title neovim C:\\Program Files\\Neovim\\bin\\nvim.exe \"%1\""
+@="\"C:\\Program Files\\Neovim\\bin\\nvim.exe\" \"%1\""
 
 [HKEY_CLASSES_ROOT\directory\background\shell\nvim]
 @="&Neovim Here"
 "Icon"="\"C:\\Program Files\\Neovim\\bin\\nvim-qt.exe\""
 
 [HKEY_CLASSES_ROOT\directory\background\shell\nvim\command]
-@="wt -p \"Windows PowerShell\" --title neovim C:\\Program Files\\Neovim\\bin\\nvim.exe \"%v\""
+@="\"C:\\Program Files\\Neovim\\bin\\nvim.exe\" \"%V\""
