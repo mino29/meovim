@@ -134,11 +134,6 @@ _G.packer_plugins = {
     path = "C:\\Users\\mino29\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\indent-blankline.nvim",
     url = "https://github.com/lukas-reineke/indent-blankline.nvim"
   },
-  ["jedi-vim"] = {
-    loaded = true,
-    path = "C:\\Users\\mino29\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\jedi-vim",
-    url = "https://github.com/davidhalter/jedi-vim"
-  },
   ["lspkind-nvim"] = {
     loaded = true,
     path = "C:\\Users\\mino29\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lspkind-nvim",
