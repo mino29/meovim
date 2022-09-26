@@ -132,15 +132,16 @@ return packer.startup(function(use)
         })
     end
 })
-    use 'ap/vim-css-color' -- CSS Color Preview
-    use 'terryma/vim-multiple-cursors' -- CTRL + N for multiple cursors
-    use 'sbdchd/neoformat' -- formatter, support multiple languages
-    use 'tpope/vim-repeat' -- Repeat on crack
+    use ('ap/vim-css-color') -- CSS Color Preview
+    use ('terryma/vim-multiple-cursors') -- CTRL + N for multiple cursors
+    use ('sbdchd/neoformat') -- formatter, support multiple languages
+    use ('tpope/vim-repeat') -- Repeat on crack
+
     -- use 'junegunn/fzf' -- Ultimate fuzzyfinder fzf
-  use 'windwp/nvim-ts-autotag'
-  use 'norcalli/nvim-colorizer.lua'
-  use({
-    "iamcco/markdown-preview.nvim",
+      use 'windwp/nvim-ts-autotag'
+      use 'norcalli/nvim-colorizer.lua'
+      use({
+        "iamcco/markdown-preview.nvim",
     run = function() vim.fn["mkdp#util#install"]() end,
   })
   -- use 'github/copilot.vim'
