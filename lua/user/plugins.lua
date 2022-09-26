@@ -123,8 +123,6 @@ return packer.startup(function(use)
 	-- Git
 	use({ "lewis6991/gitsigns.nvim", commit = "c18e016864c92ecf9775abea1baaa161c28082c3" })
 
-    use 'nvim-lua/popup.nvim'
-    -- use 'svermeulen/vimpeccable'                         -- help to transfer to lua 
     use({
     "kylechui/nvim-surround",
     tag = "*", -- Use for stability; omit to use `main` branch for the latest features
