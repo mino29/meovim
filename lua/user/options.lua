@@ -70,6 +70,7 @@ local options = {
     wildoptions = 'pum',
     pumblend = 5,
     background = 'dark',
+    list = true,
 }
 
 vim.opt.shortmess:append "c"
