@@ -50,7 +50,7 @@ local options = {
     wrap = false, -- display lines as one long line
     scrolloff = 15, -- is one of my fav
     sidescrolloff = 8,
-    guifont = "monospace:h17", -- the font used in graphical neovim applications
+    -- guifont = "monospace:h17", -- the font used in graphical neovim applications
     ruler = true,
     textwidth = 80,
     colorcolumn = '80',
@@ -70,8 +70,6 @@ local options = {
     wildoptions = 'pum',
     pumblend = 5,
     background = 'dark',
-    list = true
-
 }
 
 vim.opt.shortmess:append "c"
